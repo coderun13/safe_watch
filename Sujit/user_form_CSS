@@ -1,0 +1,214 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, hsl(284, 99%, 59%), #fccf31);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+  }
+  
+  .tab-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .tab {
+    padding: 10px 20px;
+    background: #E0E0E0;
+    border-radius: 15px 15px 0 0;
+    margin-right: 5px;
+    cursor: pointer;
+    color: #333;
+    font-weight: bold;
+    border: none;
+  }
+  
+  .tab.active {
+    background: #555555;
+    color: white;
+  }
+  
+  .tab:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px #B22222;
+  }
+  
+  h1 {
+    color: #B22222;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    gap: 20px;
+  }
+  
+  .form-group input {
+    width: calc(50% - 15px); /* Adjusted to include the 30px gap between inputs */
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+  }
+  
+  button {
+    background-color: #B22222;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    /* margin-bottom: 10px; */
+  }
+  
+  button:hover {
+    background-color: #a51f1f;
+  }
+  
+  button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px #a51f1f;
+  }
+  
+  p {
+    text-align: center;
+    color: #B22222;
+  }
+  
+  p a {
+    color: #B22222;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  p a:hover {
+    text-decoration: underline;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    display: flex; /* Add this */
+    justify-content: space-between; /* Add this */
+    align-items: center; /* Add this */
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* Add this */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  .navdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navdiv 
+  
+  .list {
+    position: absolute;
+    right: 0;
+    margin-left: 20px;
+  }
+  
+  .btnpro{
+    background-color: transparent;
+  }
+
+  .btnpro img {
+    height: 60px;
+    width: auto;
+  }
+
+
+  .btnpro:hover{
+    background: none;
+    text-decoration: none;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    font-size: 25px;
+  }
+  
+  .logo1 {
+    width: auto;
+    height: 80px;
+    margin-right: 10px;
+  }
+
+  .list li{
+    font-size: 20px;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between; /* Add this */
+    align-items: center;
+  }
+  
+  .navbar li {
+    margin-right: 40px;
+  
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  .navbar a:hover {
+    color: #0cec2a;
+  }
+  
+  button {
+    background-color: #B22222;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-left: 20px; /* Add this */
+  }
+  
+  button:hover {
+    background-color: #a51f1f;
+  }
