@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo"><img  class="logo1" src="logo.png" alt="logo"><a href="#">Secure Her</a></div>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <!-- <li><a href="#">EMERGENCY</a></li> -->
+                <li><a href="#">SAFETY  TIPS</a></li>
+                <li><a href="http://127.0.0.1:5501/report_section.html">REPORTS</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <button><a href="#">SignUp<span>-></span></a></button>
+            </ul>
+        </div>
+    </nav>
+    <div class="content">
+        <div class="div2">
+            <div class="btn1">#HerVoiceMatters</div>
+            <p class="p1">Welcome to Secure HER!</p>
+            <p class="p2">At Secure HER, your safety is our priority. Our mission is to<br>
+                empower women by providing a secure environment<br>
+                through real-time monitoring and advanced safety<br>
+                features. Whether you're at home, work, or on the go, our<br>
+                platform is here to help you feel confident, protected,<br>
+                and in control. Together, we can build a community<br>
+                where every woman feels safe and empowered to live<br>
+                life to the fullest.</p>
+            <p class="p3">Welcome to a safer tomorrow.</p>
+            <button class="quick-access">Quick Access <span>→</span></button>
+        </div>
+    </div>
+<!-- second page -->
+    <div class="secnd">
+        <h1 class="heading">One Step Emergency Solutions</h1>
+        <div class="secnddiv">
+            <div class="sos">
+                <button class="sosA"><a href="#">Immediate SOS Alert</a></button>
+                <p class="sosB">
+                    Your real-time location is<br>
+                    instantly shared with your<br>
+                    emergency contacts and<br>
+                    local authorities,<br>
+                    triggering an urgent alert<br>
+                    for immediate assistance.
+                </p>
+            </div>
+
+            <div class="emergency">
+                <button class="emergencyA"><a href="#">Emergency Call</a></button>
+                <p class="emergencyB">
+                    Quickly connect with local<br>
+                    emergency services or<br>
+                    your pre-set emergency<br>
+                    contacts with just one tap.<br>
+                </p>
+            </div>
+
+            <div class="safe">
+                <button class="safeA"><a href="#">Nearby Safe Zones</a></button>
+                <p class="safeB">
+                    Instantly view a map of<br>
+                    nearby safe locations,<br>
+                    such as police stations,<br>
+                    hospitals, and 24/7<br>
+                    businesses, where you<br>
+                    can quickly seek help. Get<br>
+                    directions to the closest<br>
+                    safe spot in seconds.<br>
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p>Email: support@womensafety.org</p>
+                <p>Phone: +1 800-123-456</p>
+                <p>Emergency: 911</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="#about">About Us</a>
+                <a href="#privacy-policy">Privacy Policy</a>
+                <a href="#terms">Terms of Service</a>
+                <a href="#resources">Safety Resources</a>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Women's Safety Project. All rights reserved.</p>
+        </div>
+    </footer>
+    
+
+</body>
+</html>  
