@@ -1,0 +1,115 @@
+.div2 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .selection-box {
+    background-color: rgba(233, 173, 255, 0.948);
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border-radius: 8px;
+    border-radius: 20px;
+  }
+  
+  .selection-box h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .selection-box button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100px;
+  }
+  
+  .selection-box button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  *{
+    text-decoration: none;
+  }
+  
+  body{
+    background: linear-gradient(to right, hsl(284, 99%, 59%), #fccf31);
+  }
+  
+  
+  .navbar{
+    /* background: rgb(252, 4, 252); */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 15px;
+    padding-left: 15px;
+    top: 0%;
+  }
+  .navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    display: flex; /* Enable flexbox for logo container */
+    align-items: center; /* Vertically center content */
+  }
+  
+  .logo a {
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+    margin-left: 10px; /* Add some space between logo and text */
+  }
+  
+  .logo1 {
+    /* Style for the logo image */
+    height: 70px;
+    width: auto;
+  }
+  
+  /* .logo a{
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+  } */
+  
+  li{
+    list-style: none;
+    display: inline-block;
+  }
+  
+  li a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+  }
+  
+  button{
+    background-color: white;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  ul li a:hover{
+    color: rgb(6, 254, 47);
+  }
