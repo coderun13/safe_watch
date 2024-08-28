@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure HER - Report Page</title>
+    <link rel="stylesheet" href="report.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo"><img  class="logo1" src="logo.png" alt="logo"><a href="#">Secure Her</a></div>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <!-- <li><a href="#">EMERGENCY</a></li> -->
+                <li><a href="#">SAFETY  TIPS</a></li>
+                <li><a href="http://127.0.0.1:5501/report_section.html">REPORTS</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <button class="ad"><a href="#">SignUp<span>-></span></a></button>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <p class="intro-text">
+            It is your fundamental right to stand up and speak out against any form of crime or injustice. Under the Indian Constitution<br>
+            and the Criminal Procedure Code, you are protected and empowered to report criminal activities and seek justice without<br>
+            fear. Your courage to report or protest not only safeguards your rights but also contributes to a safer and more just society<br>
+            everyone.
+        </p>
+        <div class="report-sections">
+            <div class="report-section">
+                <div class="report-heading">Report Unusual Activity</div>
+                <p class="report-description">
+                    If you notice anything suspicious or out of the ordinary in your area, use this section to report it.
+                    Your vigilance can help prevent potential threats and contribute to a safer community for everyone.
+                </p>
+                <button class="report-button"><a href="#">Complain <span>→</span></a></button>
+            </div>
+            <div class="divider"></div>
+            <div class="report-section">
+                <div class="report-heading">Personal Complaint</div>
+                <p class="report-description">
+                    It allows you to confidentially report any personal incidents or concerns you may have encountered.
+                    Your privacy is paramount, and we are committed to providing you with a safe space to share your experience
+                    and seek the help you need, with the utmost discretion and support.
+                </p>
+                <button class="report-button"><a href="#">Complain <span>→</span></a></button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
