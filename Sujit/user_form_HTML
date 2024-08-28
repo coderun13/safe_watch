@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Account</title>
+    <link rel="stylesheet" href="user_form.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="navdiv">
+                <div class="logo"><img class="logo1" src="logo.png" alt="logo"><h2>Secure Her</h2></div>
+                <ul class="list">
+                    <li><a href="#">HOME</a></li>
+                    <!-- <li><a href="#">EMERGENCY</a></li> -->
+                    <li><a href="#">SAFETY TIPS</a></li>
+                    <li><a href="#">REPORTS</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><button class="btnpro"><a href="#"></a><img src="profile.png"></a></button></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="tab-container">
+            <button class="tab active">Users</button>
+            <button class="tab">Authority</button>
+        </div>
+        <h1>Create New Account</h1>
+        <form class="form">
+            <div class="form-group">
+                <input type="text" placeholder="Name" required>
+                <input type="text" placeholder="Address" required>
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Email" required>
+                <input type="text" placeholder="Emergency contact no." required>
+            </div>
+            <div class="form-group">
+                <input type="password" placeholder="Password" required>
+                <input type="date" placeholder="D.O.B" required>
+            </div>
+            <button type="submit">Sign Up</button>
+            <p>Already Registered? <a href="#">Login</a></p>
+        </form>
+    </div>
+</body>
+
+</html>
